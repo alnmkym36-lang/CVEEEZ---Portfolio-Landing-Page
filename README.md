@@ -1,11 +1,36 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# CVEEEZ Portfolio Landing Page
 
-  <h1>Built with AI Studio</h2>
+This is a modern, high-conversion landing page for CVEEEZ built with React, TypeScript, and Tailwind CSS.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Getting Started
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1.  **Installation**:
+    ```bash
+    npm install
+    ```
 
-</div>
+2.  **Development**:
+    ```bash
+    npm run dev
+    ```
+
+3.  **Build**:
+    ```bash
+    npm run build
+    ```
+
+## Project Structure
+- `components/`: Reusable UI components (Navbar, Hero, Footer, etc.)
+- `pages/`: Main page assembly and legal pages.
+- `types.ts`: Global TypeScript definitions.
+
+## Key Features
+- **Arabic First UI**: Fully RTL supported with Egyptian-friendly copy.
+- **Modern Tech Stack**: React 18+, Tailwind CSS, Lucide Icons.
+- **Dark/Light Mode**: User preference stored in `localStorage`.
+- **Responsive Design**: Optimized for all screen sizes.
+- **External Links**: Direct integration with existing CVEEEZ platform services.
+
+## Deployment
+This project is ready for deployment on **Vercel** via GitHub import. Simply connect your repository to Vercel and it will auto-detect the configuration.

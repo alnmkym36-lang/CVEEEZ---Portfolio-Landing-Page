@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
 
   const translations = {
     ar: {
-      slogan: "نحن نحقق أهدافك",
+      slogan: "نحن نحقق أهدافك المهنية بذكاء",
       quick: "روابط سريعة",
       services: "الخدمات",
       legal: "القانونية",
@@ -32,10 +32,10 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
         { n: "سياسة الخصوصية", id: "privacy" },
         { n: "سياسة الاسترداد", id: "refund" }
       ],
-      rights: "جميع الحقوق محفوظة."
+      rights: "جميع الحقوق محفوظة لـ CVEEEZ."
     },
     en: {
-      slogan: "We Achieve Your Goals",
+      slogan: "We achieve your career goals smartly",
       quick: "Quick Links",
       services: "Services",
       legal: "Legal",
@@ -56,7 +56,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
         { n: "Privacy Policy", id: "privacy" },
         { n: "Refund Policy", id: "refund" }
       ],
-      rights: "All rights reserved."
+      rights: "All rights reserved to CVEEEZ."
     }
   };
 
@@ -86,7 +86,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`grid grid-cols-1 md:grid-cols-4 gap-12 mb-16 ${lang === 'ar' ? 'text-right' : 'text-left'}`}>
           <div className="col-span-1 md:col-span-1">
-            <Link to="/" className={`flex items-center gap-2 mb-6 ${lang === 'ar' ? 'justify-start' : 'justify-start'}`}>
+            <Link to="/" className="flex items-center gap-2 mb-6">
               <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center text-white font-black text-lg">C</div>
               <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">CVEEEZ</span>
             </Link>
@@ -130,7 +130,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
         </div>
 
         <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-sm">
-          <p>© 2026 CVEEEZ. {t.rights}</p>
+          <p dir="ltr">© 2026 CVEEEZ. {t.rights}</p>
           <div className="flex gap-6">
             <a href="https://facebook.com/cveeez" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 transition-colors font-bold">Facebook</a>
             <a href="https://linkedin.com/company/cveeez" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 transition-colors font-bold">LinkedIn</a>
